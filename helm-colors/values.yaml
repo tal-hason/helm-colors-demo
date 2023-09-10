@@ -1,7 +1,14 @@
 deployment:
-  - name: blue
+# Each object in the array will create it's own deployment and service 
+# and will add a new backend in the route
+# The Route support up to 3 backend services
+    # Name of the Application
+  - name: blue 
+    # Number of replicas
     replicas: 1
+    # Color of the bubbles
     color: blue
+    # The weight that will be used in the route
     weight: 5
   - name: green
     replicas: 1

@@ -1,0 +1,13 @@
+deployment:
+  - name: blue
+    replicas: 1
+    color: blue
+    weight: 5
+  - name: green
+    replicas: 1
+    color: green
+    weight: 5
+  - name: purple
+    replicas: 1
+    color: purple
+    weight: 5

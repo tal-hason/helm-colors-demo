@@ -7,6 +7,7 @@ metadata:
     app.kubernetes.io/component: helm-colors
     app.kubernetes.io/part-of: helm-colors
     app.kubernetes.io/instance: helm-colors
+    app.kubernetes.io/name: helm-colors
     app: {{ .name }}
   name: {{ .name }}
 spec:

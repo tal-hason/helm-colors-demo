@@ -4,6 +4,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
+    part-of: helm-colors
     app: {{ .name }}
   name: {{ .name }}
 spec:

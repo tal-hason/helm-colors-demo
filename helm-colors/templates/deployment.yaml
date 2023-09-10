@@ -8,6 +8,7 @@ metadata:
     app.kubernetes.io/part-of: helm-colors
     app.kubernetes.io/instance: helm-colors
     app.kubernetes.io/name: helm-colors
+    app.openshift.io/runtime: helm
     app: {{ .name }}
   name: {{ .name }}
 spec:

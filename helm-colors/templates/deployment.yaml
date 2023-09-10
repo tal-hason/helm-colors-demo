@@ -5,6 +5,7 @@ kind: Deployment
 metadata:
   labels:
     app.kubernetes.io/part-of: helm-colors
+    app.kubernetes.io/instance: helm-colors
     app: {{ .name }}
   name: {{ .name }}
 spec:

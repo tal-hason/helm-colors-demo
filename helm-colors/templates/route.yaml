@@ -4,6 +4,7 @@ metadata:
   labels:
     app.kubernetes.io/part-of: helm-colors
     app.kubernetes.io/instance: helm-colors
+    app.kubernetes.io/component: helm-colors
   name: helm-colors
   annotations:
     haproxy.router.openshift.io/disable_cookies: 'true'

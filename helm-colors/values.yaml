@@ -10,10 +10,10 @@ deployment:
     color: blue
     # The weight that will be used in the route
     weight: 5
-  # - name: green
-  #   replicas: 1
-  #   color: green
-  #   weight: 5
+  - name: green
+    replicas: 1
+    color: green
+    weight: 5
   # - name: purple
   #   replicas: 1
   #   color: purple

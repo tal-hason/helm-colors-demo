@@ -14,7 +14,7 @@ deployment:
     replicas: 1
     color: green
     weight: 5
-  # - name: purple
-  #   replicas: 1
-  #   color: purple
-  #   weight: 5
+  - name: pink
+    replicas: 1
+    color: pink
+    weight: 5
